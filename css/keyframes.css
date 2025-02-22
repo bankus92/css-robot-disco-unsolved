@@ -1,0 +1,232 @@
+/*Keyframes*/
+
+@keyframes simple {
+  0% {
+    background-color: rgba(176, 39, 189, 0.5);
+  }
+  25% {
+    background-color: #c9bd1d;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: crimson;
+  }
+  100% {
+    background-color: rgba(176, 39, 189, 0.5);
+  }
+}
+
+@keyframes simple1 {
+  0% {
+    height: 0%;
+    width: 0%;
+  }
+  100% {
+    height: 33%;
+    width: 33%;
+  }
+}
+
+@keyframes moving {
+  from {
+    opacity: 0%;
+    top: 0%;
+  }
+  to {
+    opacity: 50%;
+    top: 50%;
+  }
+}
+
+@keyframes tooth {
+  0% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d,
+      #1b0d69 5px,
+      #77133d 5px,
+      #1b0d69 10px
+    );
+  }
+  10% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d 1px,
+      #1b0d69 6px,
+      #77133d 6px,
+      #1b0d69 11px
+    );
+  }
+  20% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d 2px,
+      #1b0d69 7px,
+      #77133d 7px,
+      #1b0d69 12px
+    );
+  }
+
+  30% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d 3px,
+      #1b0d69 8px,
+      #77133d 8px,
+      #1b0d69 13px
+    );
+  }
+
+  40% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d 4px,
+      #1b0d69 9px,
+      #77133d 9px,
+      #1b0d69 14px
+    );
+  }
+
+  50% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d 5px,
+      #1b0d69 10px,
+      #77133d 10px,
+      #1b0d69 15px
+    );
+  }
+
+  60% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d 4px,
+      #1b0d69 9px,
+      #77133d 9px,
+      #1b0d69 14px
+    );
+  }
+
+  70% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d 3px,
+      #1b0d69 8px,
+      #77133d 8px,
+      #1b0d69 13px
+    );
+  }
+
+  80% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d 2px,
+      #1b0d69 7px,
+      #77133d 7px,
+      #1b0d69 12px
+    );
+  }
+
+  90% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d 1px,
+      #1b0d69 6px,
+      #77133d 6px,
+      #1b0d69 11px
+    );
+  }
+
+  100% {
+    background: repeating-radial-gradient(
+      circle,
+      #77133d,
+      #1b0d69 5px,
+      #77133d 5px,
+      #1b0d69 10px
+    );
+  }
+}
+
+@keyframes hairs {
+  0% {
+    transform: skew(25deg);
+  }
+
+  50% {
+    transform: skew(-35deg);
+  }
+
+  100% {
+    transform: skew(25deg);
+  }
+}
+
+@keyframes hairs1 {
+  0% {
+    transform: scaley(100%);
+    transform: scaleX(0.5);
+  }
+
+  50% {
+    transform: scaleY(50%);
+    transform: scaleY(0.6);
+  }
+
+  100% {
+    transform: scaleY(100%);
+    transform: scaleX(0.5);
+  }
+}
+
+@keyframes rotateear {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes earleft {
+  0% {
+    position: relative;
+    top: 50%;
+    left: 1%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 90px solid rgb(25, 117, 160);
+    border-bottom: 90px solid transparent;
+  }
+  50% {
+    position: relative;
+    top: 50%;
+    left: 1%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 90px solid #77133d;
+    border-bottom: 90px solid transparent;
+  }
+  100% {
+    position: relative;
+    top: 50%;
+    left: 1%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 90px solid rgb(25, 117, 160);
+    border-bottom: 90px solid transparent;
+  }
+}

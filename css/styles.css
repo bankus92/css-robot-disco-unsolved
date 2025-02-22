@@ -5,37 +5,157 @@ body {
 /* 👇👇👇 Paste the styles of your Fancy Robot from the "Position it right" assignment here 👇👇👇 */
 
 .robot-container {
+  border: 1px solid #000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  border-radius: 10%;
+  align-self: center;
+  vertical-align: middle;
+  margin: 5 auto;
+  background-color: #77133d;
 }
 
 .robot-face-shape {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #1b0d69;
 }
 
 .robot-eye-left {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background-color: rgba(176, 39, 189, 0.5);
+  rotate: 12deg;
 }
 
 .robot-eye-right {
+  position: absolute;
+  top: 27%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: repeating-radial-gradient(circle, #080104, #77133d 30px);
 }
 
 .robot-ear-left {
+  position: relative;
+  top: 50%;
+  left: 1%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 90px solid rgb(25, 117, 160);
+  border-bottom: 90px solid transparent;
 }
 
 .robot-ear-right {
+  position: relative;
+  top: 20%;
+  left: 99%;
+  transform: skew(-15deg);
+  width: 80px;
+  height: 120px;
+  border-radius: 40%;
+  background-color: #183e53;
 }
 
 .robot-nose {
-}
-
-.robot-nose:before {
-}
-
-.robot-nose:after {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 0px;
+  height: 0px;
+  transform: skew(20deg);
+  opacity: 0.5;
+  border-right: 70px solid transparent;
+  border-bottom: 40px solid orange;
+  border-left: 70px solid transparent;
 }
 
 .robot-teeth {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(2, auto);
+  background-image: url(https://picsum.photos/200/100);
+  opacity: 0.5;
+  bottom: 10%;
+  left: 30%;
+  width: 200px;
+  height: 100px;
+  border-radius: 15%;
+  transform: skew(-15deg);
 }
 
 .robot-tooth {
+  margin-top: 25%;
+  margin-left: 20%;
+  width: 20px;
+  height: 30px;
+  background: repeating-radial-gradient(
+    circle,
+    #77133d,
+    #1b0d69 5px,
+    #77133d 5px,
+    #1b0d69 10px
+  );
 }
 
 .robot-hair-style {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.robot-hair-one {
+  position: absolute;
+  top: -10%;
+  left: 12%;
+  width: 100px;
+  height: 100px;
+  rotate: -20deg;
+  transform: scaleX(0.5);
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.robot-hair-two {
+  position: absolute;
+  top: -14%;
+  left: 43%;
+  width: 100px;
+  height: 130px;
+  transform: scaleX(0.5);
+  border-radius: 50%;
+  background-color: #0c5522;
+}
+
+.robot-hair-three {
+  position: absolute;
+  top: -13%;
+  right: 20%;
+  width: 100px;
+  height: 100px;
+  transform: scaleX(0.5);
+  border-radius: 50%;
+  background-color: #c9bd1d;
+  rotate: 19deg;
 }

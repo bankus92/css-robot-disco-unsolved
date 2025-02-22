@@ -1,0 +1,55 @@
+/*Animations*/
+
+.robot-eye-left {
+  animation-name: simple;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+.robot-eye-right {
+  animation-name: simple1;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+.robot-nose {
+  animation-name: moving;
+  animation-duration: 7s;
+}
+
+.robot-tooth:hover {
+  animation-name: tooth;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  cursor: none;
+}
+
+.robot-teeth:hover {
+  cursor: none;
+}
+
+.robot-hair-style .robot-hair-one,
+.robot-hair-style .robot-hair-three {
+  animation-name: hairs;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.robot-hair-style .robot-hair-two {
+  animation-name: hairs1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.robot-ear-right {
+  animation-name: rotateear;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.robot-ear-left {
+  animation-name: earleft;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
